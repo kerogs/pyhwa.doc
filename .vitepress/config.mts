@@ -5,7 +5,7 @@ export default defineConfig({
   title: "PyHwa",
   description: "Small python application for reading manhwa/manhua/manga.",
   head: [['link', { rel: 'icon', href: '/assets/pyhwa.svg' }]],
-  base: '/docs/',
+  base: '/pyhwa.doc/',
   // outDir: '../docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
