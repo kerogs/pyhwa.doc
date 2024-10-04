@@ -1,0 +1,54 @@
+---
+title: Add manga & manhwa
+description: Download and use PyHwa quickly
+sidebar:
+    order: 2
+---
+
+import { Icon } from '@astrojs/starlight/components';
+import { Card } from '@astrojs/starlight/components';
+
+## Add
+:::tip
+Turn on your web server as you read this tutorial, and we'll provide you with links to access your site on local networks! 
+
+::: details
+Obviously if you haven't touched the default port (5113)
+:::
+
+:::
+
+### from website
+:::caution
+This feature is not yet 100% reliable, so you may encounter problems when adding your manhwa or manga.
+:::
+
+To publish manhwa or manga from your website, simply go to the **/add** page : *http://127.0.0.1:5113/settings/add.*
+
+### from folders
+To add manga and manhwa to the site, you will need to take the files and place them in the ``/static/content/`` folder.
+
+They will need to respect a certain tree structure so that the site can detect them easily.
+
+
+<Card title="From Folders" icon="seti:folder">
+Here's the structure that manga and manhwa must respect :
+```tree
+📦content
+ ┣ 📂Arafoo Otoko no Isekai Tsuhan Seikatsu
+ ┃ ┣ 📂Chapter 1
+ ┃ ┃ ┣ 📜01.jpg
+ ┃ ┃ ┣ 📜02.jpg
+ ┃ ┃ ┣ 📜03.jpg
+ ┃ ┃ ┣ 📜04.jpg
+ ┃ ┃ ┣ ...
+ ┃ ┣ 📂Chapter 2
+ ┃ ┃ ┣ 📜01.jpg
+ ┃ ┃ ┣ 📜02.jpg
+ ┃ ┃ ┣ 📜03.jpg
+ ┃ ┃ ┣ 📜04.jpg
+ ┃ ┃ ┗ ...
+ ┃ ...
+ ┗ 📜 .gitkeep
+```
+</Card>
