@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "PyHwa",
   description: "Small python application for reading manhwa/manhua/manga.",
-  head: [['link', { rel: 'icon', href: './contents/images/pyhwa.svg' }]],
+  head: [['link', { rel: 'icon', href: '/pyhwa.doc/contents/images/pyhwa.svg' }]],
   base: '/pyhwa.doc/',
   outDir: '/docs',
   themeConfig: {
@@ -46,7 +46,19 @@ export default defineConfig({
       {
         text: 'Configuration',
         items: [
-          { text: 'Hakuneko', link: '/configuration/hakuneko' },
+          { text: 'Server', link: '/configurations/server' },
+          { text: 'Security', link: '/configurations/security' },
+          { text: 'Metadata', link: '/configurations/metadata' },
+          { text: 'Path', link: '/configurations/path' },
+          { text: 'Logs', link: '/configurations/logs' },
+        ]
+      },
+      {
+        text: 'Integrations',
+        items: [
+          { text: 'Hakuneko', link: '/integrations/hakuneko' },
+          { text: 'Mangadex', link: '/integrations/mangadex' },
+          { text: 'AniList', link: '/integrations/anilist' },
         ]
       }
     ],
