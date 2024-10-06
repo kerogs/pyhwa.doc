@@ -6,7 +6,7 @@ hero:
   name: "PyHwa"
   tagline: "Small python application for reading manhwa/manhua/manga."
   image:
-    src: ./contents/images/pyhwa.svg
+    src: https://raw.githubusercontent.com/kerogs/pyhwa.doc/be3d55c2c78745952b367aa0b366fc190252fd92/contents/images/pyhwa.svg
     alt: pyhwa logo
   actions:
     - theme: brand

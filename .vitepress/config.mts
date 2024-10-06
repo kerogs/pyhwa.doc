@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "PyHwa",
   description: "Small python application for reading manhwa/manhua/manga.",
-  head: [['link', { rel: 'icon', href: '/pyhwa.doc/contents/images/pyhwa.svg' }]],
+  head: [['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/kerogs/pyhwa.doc/be3d55c2c78745952b367aa0b366fc190252fd92/contents/images/pyhwa.svg' }]],
   base: '/pyhwa.doc/',
   outDir: '/docs',
   themeConfig: {
@@ -24,7 +24,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Downloads', link: 'https://github.com/kerogs/pyhwa/releases/latest' }
+      { text: 'Download', link: 'https://github.com/kerogs/pyhwa/releases/latest' }
     ],
 
 
