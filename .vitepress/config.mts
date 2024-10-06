@@ -42,6 +42,12 @@ export default defineConfig({
         items: [
           { text: 'Setup', link: '/start/setup' },
         ]
+      },
+      {
+        text: 'Configuration',
+        items: [
+          { text: 'Hakuneko', link: '/configuration/hakuneko' },
+        ]
       }
     ],
 
