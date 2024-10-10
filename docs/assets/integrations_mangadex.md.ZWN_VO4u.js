@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.d-vip8HE.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"integrations/mangadex.md","filePath":"integrations/mangadex.md"}'),n={name:"integrations/mangadex.md"};function r(o,s,i,c,d,m){return t(),a("div")}const f=e(n,[["render",r]]);export{_ as __pageData,f as default};

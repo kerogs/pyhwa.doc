@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./chunks/framework.d-vip8HE.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"configurations/server.md","filePath":"configurations/server.md"}'),a={name:"configurations/server.md"};function o(s,n,c,i,f,p){return t(),r("div")}const m=e(a,[["render",o]]);export{d as __pageData,m as default};

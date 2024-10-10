@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.d-vip8HE.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"integrations/anilist.md","filePath":"integrations/anilist.md"}'),n={name:"integrations/anilist.md"};function i(s,r,o,c,l,p){return a(),e("div")}const m=t(n,[["render",i]]);export{d as __pageData,m as default};
